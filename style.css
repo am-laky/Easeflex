@@ -1,0 +1,59 @@
+html, body {
+    width: full;
+    height: fit-content;
+    display: grid;
+    margin: 0;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: --var(#f1f1f1);
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+.about {
+  text-align: center;
+  padding: 20px;
+}
+
+.search-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+#searchInput {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+table {
+  width: 90%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+tr.hidden {
+  display: none;
+}
+
+h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+.wa {
+    line-height: 1.5;
+}
